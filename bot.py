@@ -12,11 +12,11 @@ TOKEN = os.getenv("BOT_TOKEN")
 APP_NAME = os.getenv("APP_NAME")
 TELEGRAM_USERNAME = os.getenv("TELEGRAM_USERNAME")
 
-START_MSG = '''*Welcome To the Bot🖐🖐*
+START_MSG = '''*Welcome To the Bot my master is @@Kuttu_thomas🖐🖐*
 
 _Send me anyones instagram username to get their DP_
 
-*ex :* `mrk_yt_`...., *etc*'''
+*ex :* `@Kuttu_thomas`...., *etc*'''
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
@@ -39,7 +39,7 @@ def start(update, context):
     update.message.reply_text(
         START_MSG,
         parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("How To Own & Use", url="https://youtu.be/6AlELqY_w6o")]]))
+                    [[InlineKeyboardButton("How To Own & Use", url="https://t.me/filmworldchannel2")]]))
 
 def help_msg(update, context):
     update.message.reply_text("Enter Your Instagram UserName")
