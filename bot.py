@@ -12,7 +12,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 APP_NAME = os.getenv("APP_NAME")
 TELEGRAM_USERNAME = os.getenv("TELEGRAM_USERNAME")
 
-START_MSG = '''*Welcome To the Bot my master is @@Kuttu_thomas🖐🖐*
+START_MSG = '''*Welcome To the Bot my master is @Kuttu_thomas🖐🖐*
 
 _Send me anyones instagram username to get their DP_
 
